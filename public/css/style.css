@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&display=swap');
+* {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+
+body {
+  direction: rtl;
+  height: 100vh;
+}
+
+ion-icon {
+  position: relative;
+  top: 2px;
+  padding-left: 3px;
+}
+
+table ion-icon {
+  font-size: 1.4em;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.have-donateur-div{
+  display: none;
+}
+.have-donateur-div.opened {
+  display: block;
+}
+
+
+
+.delete-btns {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+
+img {
+  object-fit: cover;
+}
+
+
+
+
